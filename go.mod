@@ -22,6 +22,7 @@ require (
 )
 
 replace (
+	github.com/projectcalico/libcalico-go => github.com/lmm/libcalico-go v1.7.2-0.20210713172123-14055dfe11b1
 	k8s.io/api => k8s.io/api v0.21.0-rc.0
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.21.0-rc.0
 	k8s.io/apimachinery => k8s.io/apimachinery v0.21.0-rc.0
